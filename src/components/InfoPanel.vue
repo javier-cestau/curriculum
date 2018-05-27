@@ -70,7 +70,7 @@ export default {
     }
   },
   mounted () {
-    this.$root.$on('speak', this.speak)
+    // this.$root.$on('speak', this.speak)
     new TypeIt('.bubble', {
       cursor: false
     })

@@ -83,7 +83,6 @@ export default {
   },
   methods: {
     sendAssistant () {
-      console.log('asd')
       this.$root.$emit('speak', 'You can click the certificates')
     },
     open (url) {

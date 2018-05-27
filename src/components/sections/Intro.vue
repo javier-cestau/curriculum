@@ -70,7 +70,7 @@ export default {
 
 <style lang="css">
 .background-cover{
-  height: 95vh !important;
+  height: 93vh !important;
 }
 
 .position{

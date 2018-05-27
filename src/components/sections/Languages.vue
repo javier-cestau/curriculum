@@ -1,5 +1,9 @@
 <template lang="pug">
-  div.row
+  q-list.row(
+    no-border
+    link
+    inset-delimiter
+    )
     div.col-xs-12
       div.bg-primary(style="width: 75px;height:2px;")
       q-list-header(v-center='') {{$t('sections.languages.title')}}
@@ -7,6 +11,7 @@
       q-knob(
         v-model="language.percentage"
         :min="0"
+        color="blue-10"
         :max="100"
       ) {{language.name}}
 </template>

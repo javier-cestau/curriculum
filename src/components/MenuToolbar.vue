@@ -5,12 +5,12 @@
      q-toolbar-title Javier Cestau
      q-btn.q-mr-xs(v-show="hiddenOnSmall()" v-center="" v-for='button in buttons' flat @click.native='scrollToElement(button.target)' :key='button.target')
        span {{button.name}}
-     q-btn.bg-white.text-black(fab-mini @click="popover = true" ref='language' round icon="fas fa-globe")
-       q-popover(v-model="popover")
-         q-list( separator link)
-           q-item( @click.native="changeLanguage(language.value),popover = false" :key="index" v-for="(language,index) in languages")
-             q-item-side(:avatar="language.icon")
-             q-item-main(:label="language.name" label-lines="1")
+     //- q-btn.bg-white.text-black(fab-mini @click="popover = true" ref='language' round icon="fas fa-globe")
+     //-   q-popover(v-model="popover")
+     //-     q-list( separator link)
+     //-       q-item( @click.native="changeLanguage(language.value),popover = false" :key="index" v-for="(language,index) in languages")
+     //-         q-item-side(:avatar="language.icon")
+     //-         q-item-main(:label="language.name" label-lines="1")
 </template>
 
 <script>
