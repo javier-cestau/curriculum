@@ -20,20 +20,16 @@ export default {
           icon: 'fab fa-css3-alt',
           skills: [
             {
-              name: 'Vuetify',
-              icon: './assets/otherSkills/vuetify.png'
+              name: 'Vuetify'
             },
             {
-              name: 'Materialize',
-              icon: './assets/otherSkills/materialize.png'
+              name: 'Materialize'
             },
             {
-              name: 'Quasar',
-              icon: './assets/otherSkills/quasar.svg'
+              name: 'Quasar'
             },
             {
-              name: 'Stylus',
-              icon: './assets/otherSkills/stylus.svg'
+              name: 'Stylus'
             }
           ]
         },
@@ -42,20 +38,16 @@ export default {
           icon: 'fas fa-server',
           skills: [
             {
-              name: 'Heroku',
-              icon: './assets/otherSkills/heroku.png'
+              name: 'Heroku'
             },
             {
-              name: 'Zeit',
-              icon: './assets/otherSkills/zeit.png'
+              name: 'Zeit'
             },
             {
-              name: 'Digital Ocean',
-              icon: './assets/otherSkills/digital.png'
+              name: 'Digital Ocean'
             },
             {
-              name: 'Nginx',
-              icon: './assets/otherSkills/nginx.png'
+              name: 'Nginx'
             }
           ]
         },
@@ -64,16 +56,13 @@ export default {
           icon: 'fas fa-chart-line',
           skills: [
             {
-              name: 'Redis',
-              icon: './assets/otherSkills/redis.svg'
+              name: 'Redis'
             },
             {
-              name: 'Sidekiq',
-              icon: './assets/otherSkills/sidekiq.svg'
+              name: 'Sidekiq'
             },
             {
-              name: 'Nuxt',
-              icon: './assets/otherSkills/nuxt.png'
+              name: 'Nuxt'
             }
           ]
         },
@@ -82,16 +71,13 @@ export default {
           icon: 'fas fa-database',
           skills: [
             {
-              name: 'MySQL',
-              icon: './assets/otherSkills/mysql.jpg'
+              name: 'MySQL'
             },
             {
-              name: 'Firebase',
-              icon: './assets/otherSkills/firebase.png'
+              name: 'Firebase'
             },
             {
-              name: 'MongoDB',
-              icon: './assets/otherSkills/mongodb.png'
+              name: 'MongoDB'
             }
           ]
         },
@@ -100,24 +86,19 @@ export default {
           icon: 'fab fa-searchengin',
           skills: [
             {
-              name: 'Google Analytics',
-              icon: './assets/otherSkills/analytics.jpg'
+              name: 'Google Analytics'
             },
             {
-              name: 'XML Sitemaps',
-              icon: './assets/otherSkills/xml.png'
+              name: 'XML Sitemaps'
             },
             {
-              name: 'Credentials',
-              icon: './assets/otherSkills/credentials.png'
+              name: 'Credentials'
             },
             {
-              name: 'SERP Display',
-              icon: './assets/otherSkills/serp.png'
+              name: 'SERP Display'
             },
             {
-              name: 'Schema structure',
-              icon: './assets/otherSkills/schema.png'
+              name: 'Schema structure'
             }
           ]
         },
@@ -126,16 +107,19 @@ export default {
           icon: 'fas fa-laptop',
           skills: [
             {
-              name: 'Webpack',
-              icon: './assets/otherSkills/webpack.png'
+              name: 'Webpack'
             },
             {
-              name: 'Docker',
-              icon: './assets/otherSkills/docker.jpg'
+              name: 'Eslint'
             },
             {
-              name: 'Git',
-              icon: './assets/otherSkills/git.png'
+              name: 'Docker'
+            },
+            {
+              name: 'Git'
+            },
+            {
+              name: 'Babel'
             }
           ]
         }

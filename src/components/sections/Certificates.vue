@@ -37,10 +37,22 @@ export default {
           url: 'https://platzi.com/@javier_cestau/curso/fundamentos-javascript/diploma/'
         },
         {
-          title: 'Vuejs Profesional',
+          title: 'Vue.js Profesional',
           id: 'vuejs',
           logo: './assets/certificates/vuejs.png',
           url: 'https://platzi.com/@javier_cestau/curso/vuejs-profesional/diploma/'
+        },
+        {
+          title: 'React.JS',
+          id: 'react',
+          logo: './assets/certificates/react.png',
+          url: 'https://platzi.com/@javier_cestau/curso/react/diploma/'
+        },
+        {
+          title: 'Webpack',
+          id: 'webpack',
+          logo: './assets/certificates/webpack.png',
+          url: 'https://platzi.com/@javier_cestau/curso/webpack/diploma/'
         },
         {
           title: 'PostgreSQL',
@@ -71,6 +83,12 @@ export default {
           id: 'wordpress',
           logo: './assets/certificates/wordpress.png',
           url: 'https://platzi.com/@javier_cestau/curso/wordpress/diploma/'
+        },
+        {
+          title: 'SEO',
+          id: 'seo',
+          logo: './assets/certificates/seo.png',
+          url: 'https://platzi.com/@javier_cestau/curso/posicionamiento-buscadores/diploma/'
         },
         {
           title: 'English for STEM',
@@ -195,6 +213,14 @@ export default {
   background: linear-gradient(to bottom right, #efdb4f 0%, #ffed6d 100%);
   color: #b7892b;
 }
+#react:hover {
+  background: linear-gradient(to bottom right, #5fd4e6 0%, #07303e 100%);
+  color: #b7892b;
+}
+#webpack:hover {
+  background: linear-gradient(to bottom right, #efd658 0%, #ffffff 100%);
+  color: #b7892b;
+}
 #postgresql:hover {
   background: linear-gradient(to bottom right, #fcdb04 0%, #fff08e 100%);
   color: #b7892b;
@@ -209,6 +235,10 @@ export default {
 }
 #wordpress:hover {
   background: linear-gradient(to bottom right, #7f22ff 0%, #7faeff 100%);
+  color: #b7892b;
+}
+#seo:hover {
+  background: linear-gradient(to bottom right, #a7e6f8 0%, #36bfee 100%);
   color: #b7892b;
 }
 #stem:hover {

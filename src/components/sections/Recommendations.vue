@@ -40,7 +40,16 @@ export default {
           position: this.$t('sections.recommendations.attr.valeria.position'),
           url: 'Ziprecruiter',
           via: 'https://www.ziprecruiter.com',
-          contactInfo: 'valeria@tasautomation.com'
+          contactInfo: 'https://www.linkedin.com/in/vvillalobosc/'
+        },
+        {
+          company: 'The Daily Post',
+          author: 'Henry Zelaya',
+          comment: this.$t('sections.recommendations.attr.henry.comment'),
+          position: this.$t('sections.recommendations.attr.henry.position'),
+          url: 'Workana',
+          via: 'http://workana.com',
+          contactInfo: 'https://www.linkedin.com/in/hescobarsv/'
         },
         {
           company: 'Unigleam',

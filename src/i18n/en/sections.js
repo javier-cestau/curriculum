@@ -92,7 +92,7 @@ export default {
             Implement testing code
           </li>
           <li>
-              Improve the UI and UX.
+              Improve the UI.
           </li>
         </ul>
         <p>
@@ -123,9 +123,53 @@ export default {
         </p>
         `
       },
+      iqtest: {
+        position: 'Partial-Time Web Developer',
+        period: 'June 2018 - Current ',
+        description: `
+        <p>
+          I was hired through Upwork to complete four different projects for this company, one was the IQ Test page and I worked beside another company called <a style="text-decoration: none" href="https://marsbased.com/es/">MarsBased </a> who together organized issue on the <a style="text-decoration: none" href="http://github.com">Github</a> platform.
+        </p>
+        <p>
+          In summary this project included several task, like the following:
+        </p>
+        <ul>
+          <li>
+           Redesigning the website's UI.
+          </li>
+          <li>
+           Add new features to the website.
+          </li>
+          <li>
+           Fix bugs in the webpage.
+          </li>
+          <li>
+            Add payment gateway like 2checkout, Braintree and Stripe.
+          </li>
+          <li>
+            And more work in progress...
+          </li>
+        </ul>
+        <p>
+          This web site was built with <strong>Ruby on Rails</strong>. For this project I had to work on their <strong>heroku server</strong>, work with the <strong>Sentry</strong> app and Circle Ci.
+        </p>
+        `
+      },
+      tdpost: {
+        position: 'SEO Manager',
+        period: 'June 2018 - July 2018',
+        description: `
+          <p>
+            The company The Daily Post hired me to make a SEO optimization in their Wordpress website.
+          </p>
+          <p>
+            I applied the best SEO techniques as XML sitemap, keyword Research, correct use of HTML tags, caching and many others.
+          </p>
+        `
+      },
       tascolatam: {
         position: 'Web Developer',
-        period: 'February 2018 - Current',
+        period: 'February 2018 - June 2018',
         description: `
         <p>
           The company <strong>Tas Automation</strong> wanted to build a website from scratch.
@@ -168,6 +212,10 @@ export default {
       kenny: {
         comment: 'Javier is great and gets the job done!',
         position: 'Project Manager'
+      },
+      henry: {
+        comment: 'Javier has done an excellent job, 100% recommended. No doubt we will return to work on a new project.',
+        position: 'CEO'
       }
     }
   },

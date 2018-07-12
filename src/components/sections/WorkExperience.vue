@@ -51,7 +51,9 @@ export default {
         'academia',
         'unigleam',
         'b2b',
-        'tascolatam'
+        'tascolatam',
+        'tdpost',
+        'iqtest'
       ]
     }
   },
@@ -81,6 +83,18 @@ export default {
           show: false,
           projectLogo: 'assets/sites/tascolatam.png',
           period: this.$t('sections.workExperience.attr.tascolatam.period')
+        },
+        {
+          projectName: 'The Daily Post',
+          show: false,
+          projectLogo: 'assets/sites/tdpost.png',
+          period: this.$t('sections.workExperience.attr.tdpost.period')
+        },
+        {
+          projectName: 'IQ Test',
+          show: false,
+          projectLogo: 'assets/sites/iqtest.png',
+          period: this.$t('sections.workExperience.attr.iqtest.period')
         }
       ]
     },
@@ -147,6 +161,36 @@ export default {
           technologies: [
             './assets/rails.png',
             './assets/vuejs.svg'
+          ]
+        },
+        tdpost: {
+          projectName: 'The Daily Post',
+          period: this.$t('sections.workExperience.attr.tdpost.period'),
+          company: 'The Daily Post',
+          projectLogo: 'assets/sites/tdpost.png',
+          style: 'width: 75% !important;',
+          country: 'El Salvador',
+          countryFlag: 'https://countryflags.io/sv/flat/24.png',
+          position: this.$t('sections.workExperience.attr.tdpost.position'),
+          url: 'https://tdpost.net',
+          description: this.$t('sections.workExperience.attr.tdpost.description'),
+          technologies: [
+            './assets/wordpress.svg'
+          ]
+        },
+        iqtest: {
+          projectName: 'IQ Test',
+          period: this.$t('sections.workExperience.attr.iqtest.period'),
+          company: 'Zemobile',
+          projectLogo: 'assets/sites/iqtest.png',
+          style: 'width: 75% !important;',
+          country: 'Spain',
+          countryFlag: 'https://countryflags.io/es/flat/24.png',
+          position: this.$t('sections.workExperience.attr.iqtest.position'),
+          url: 'https://iqtest-usa.org/',
+          description: this.$t('sections.workExperience.attr.iqtest.description'),
+          technologies: [
+            './assets/rails.png'
           ]
         }
       }
