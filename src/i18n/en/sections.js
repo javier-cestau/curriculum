@@ -128,7 +128,7 @@ export default {
         period: 'June 2018 - Current ',
         description: `
         <p>
-          I was hired through Upwork to complete four different projects for this company, one was the IQ Test page and I worked beside another company called <a style="text-decoration: none" href="https://marsbased.com/es/">MarsBased </a> who together organized issue on the <a style="text-decoration: none" href="http://github.com">Github</a> platform.
+          I was hired through Upwork to complete different projects for this company, one was the IQ Test page and I worked beside another company called <a style="text-decoration: none" href="https://marsbased.com/es/">Mars Based </a> who together organized issue on the <a style="text-decoration: none" href="http://github.com">Github</a> platform.
         </p>
         <p>
           In summary this project included several task, like the following:
@@ -151,7 +151,7 @@ export default {
           </li>
         </ul>
         <p>
-          This web site was built with <strong>Ruby on Rails</strong>. For this project I had to work on their <strong>heroku server</strong>, work with the <strong>Sentry</strong> app and Circle Ci.
+          This web site was built with <strong>Ruby on Rails</strong>. For this project I had to work on their <strong>heroku server</strong>, work with the <strong>Sentry</strong> app, Circle Ci and more.
         </p>
         `
       },

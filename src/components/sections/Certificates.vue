@@ -61,6 +61,18 @@ export default {
           url: 'https://platzi.com/@javier_cestau/curso/postgresql/diploma/'
         },
         {
+          title: 'MongoDB y Redis',
+          id: 'mongodb',
+          logo: './assets/certificates/mongodb-redis.png',
+          url: 'https://platzi.com/@javier_cestau/curso/mongodb-redis/diploma/'
+        },
+        {
+          title: 'MongoDB for nodejs',
+          id: 'mongodb_node',
+          logo: './assets/certificates/university-mongodb.png',
+          url: 'https://university.mongodb.com/course_completion/38de2711-7890-4fea-a364-ab00b4bc'
+        },
+        {
           title: 'Amazon Web services',
           id: 'aws',
           logo: './assets/certificates/aws.png',
@@ -207,42 +219,38 @@ export default {
 }
 #ruby:hover {
   background: linear-gradient(to bottom right, #f81121 0%, #fba0a5 100%);
-  color: #b7892b;
 }
 #vuejs:hover {
   background: linear-gradient(to bottom right, #efdb4f 0%, #ffed6d 100%);
-  color: #b7892b;
 }
 #react:hover {
   background: linear-gradient(to bottom right, #5fd4e6 0%, #07303e 100%);
-  color: #b7892b;
 }
 #webpack:hover {
   background: linear-gradient(to bottom right, #efd658 0%, #ffffff 100%);
-  color: #b7892b;
 }
 #postgresql:hover {
   background: linear-gradient(to bottom right, #fcdb04 0%, #fff08e 100%);
-  color: #b7892b;
+}
+#mongodb_node:hover {
+  background: linear-gradient(to bottom right, #5c8656 0%, #58a84b);
+}
+#mongodb:hover {
+  background: linear-gradient(to bottom right, #3edeff 0%, #2b5bff 100%);
 }
 #javascript:hover, #aws:hover, #heroku:hover {
   background: linear-gradient(to bottom right, #f4d934 0%, #dcc00f 100%);
-  color: #b7892b;
 }
 #github:hover {
   background: linear-gradient(to bottom right, #97ca3e 0%, #daff99 100%);
-  color: #b7892b;
 }
 #wordpress:hover {
   background: linear-gradient(to bottom right, #7f22ff 0%, #7faeff 100%);
-  color: #b7892b;
 }
 #seo:hover {
   background: linear-gradient(to bottom right, #a7e6f8 0%, #36bfee 100%);
-  color: #b7892b;
 }
 #stem:hover {
   background: linear-gradient(to bottom right, #c3c5c8 0%, #e1e8ed 100%);
-  color: #b7892b;
 }
 </style>
