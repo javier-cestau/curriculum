@@ -37,22 +37,40 @@ export default {
           url: 'https://platzi.com/@javier_cestau/curso/fundamentos-javascript/diploma/'
         },
         {
-          title: 'Vue.js Profesional',
-          id: 'vuejs',
-          logo: './assets/certificates/vuejs.png',
-          url: 'https://platzi.com/@javier_cestau/curso/vuejs-profesional/diploma/'
-        },
-        {
           title: 'React.JS',
           id: 'react',
           logo: './assets/certificates/react.png',
           url: 'https://platzi.com/@javier_cestau/curso/react/diploma/'
         },
         {
+          title: 'Redux',
+          id: 'redux',
+          logo: './assets/certificates/redux.png',
+          url: 'https://platzi.com/@javier_cestau/curso/redux/diploma/'
+        },
+        {
+          title: 'React Native',
+          id: 'react',
+          logo: './assets/certificates/react_native.png',
+          url: 'https://platzi.com/@javier_cestau/curso/react-native/diploma/'
+        },
+        {
+          title: 'Vue.js Profesional',
+          id: 'vuejs',
+          logo: './assets/certificates/vuejs.png',
+          url: 'https://platzi.com/@javier_cestau/curso/vuejs-profesional/diploma/'
+        },
+        {
           title: 'Webpack',
           id: 'webpack',
           logo: './assets/certificates/webpack.png',
           url: 'https://platzi.com/@javier_cestau/curso/webpack/diploma/'
+        },
+        {
+          title: 'Wordpress',
+          id: 'wordpress',
+          logo: './assets/certificates/wordpress.png',
+          url: 'https://platzi.com/@javier_cestau/curso/wordpress/diploma/'
         },
         {
           title: 'PostgreSQL',
@@ -89,12 +107,6 @@ export default {
           id: 'github',
           logo: './assets/certificates/github.png',
           url: 'https://platzi.com/@javier_cestau/curso/git-github/diploma/'
-        },
-        {
-          title: 'Wordpress',
-          id: 'wordpress',
-          logo: './assets/certificates/wordpress.png',
-          url: 'https://platzi.com/@javier_cestau/curso/wordpress/diploma/'
         },
         {
           title: 'SEO',
@@ -223,7 +235,7 @@ export default {
 #vuejs:hover {
   background: linear-gradient(to bottom right, #efdb4f 0%, #ffed6d 100%);
 }
-#react:hover {
+#react:hover, #redux:hover  {
   background: linear-gradient(to bottom right, #5fd4e6 0%, #07303e 100%);
 }
 #webpack:hover {
