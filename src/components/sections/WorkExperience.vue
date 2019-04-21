@@ -31,12 +31,12 @@
                 span {{worksModal.country}}
             q-item-separator
             p.text-grey-9(v-html="worksModal.description")
-            div(v-center="")
+            div(v-center="" v-if='worksModal.projectName != "API Gateways"')
               q-btn(color="primary" @click="open(worksModal.url)") {{$t('buttons.visit')}}
             q-item-separator
             div(v-center="") {{worksModal.period}}
             div(v-center="" )
-              img( v-for="tech in worksModal.technologies" style="width: 32px;" :src="tech")
+              img( v-for="tech in worksModal.technologies" style="width: 32px;margin-right: 6px;" :src="tech")
 </template>
 
 <script>
@@ -53,7 +53,8 @@ export default {
         'b2b',
         'tascolatam',
         'tdpost',
-        'iqtest'
+        'iqtest',
+        'api'
       ]
     }
   },
@@ -95,6 +96,12 @@ export default {
           show: false,
           projectLogo: 'assets/sites/iqtest.png',
           period: this.$t('sections.workExperience.attr.iqtest.period')
+        },
+        {
+          projectName: 'Payment Gateways API',
+          show: false,
+          projectLogo: 'assets/sites/api-aws.png',
+          period: this.$t('sections.workExperience.attr.api.period')
         }
       ]
     },
@@ -187,10 +194,34 @@ export default {
           country: 'Spain',
           countryFlag: 'https://countryflags.io/es/flat/24.png',
           position: this.$t('sections.workExperience.attr.iqtest.position'),
-          url: 'https://iqtest-usa.org/',
+          url: 'https://iqtestnow.org/',
           description: this.$t('sections.workExperience.attr.iqtest.description'),
           technologies: [
-            './assets/rails.png'
+            './assets/rails.png',
+            './assets/heroku.png',
+            './assets/webpack.png',
+            './assets/circleci.svg',
+            './assets/elastic.webp',
+            './assets/docker.png'
+          ]
+        },
+        api: {
+          projectName: 'API Gateways',
+          period: this.$t('sections.workExperience.attr.api.period'),
+          company: 'Zemobile',
+          projectLogo: 'assets/sites/api-aws.png',
+          style: 'width: 75% !important;',
+          country: 'Spain',
+          countryFlag: 'https://countryflags.io/es/flat/24.png',
+          position: this.$t('sections.workExperience.attr.api.position'),
+          url: '',
+          description: this.$t('sections.workExperience.attr.api.description'),
+          technologies: [
+            './assets/rails.png',
+            './assets/nodejs.png',
+            './assets/aws.svg',
+            './assets/docker.png',
+            './assets/sentry.jpg'
           ]
         }
       }

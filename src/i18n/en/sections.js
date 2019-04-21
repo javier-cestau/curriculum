@@ -31,11 +31,11 @@ export default {
       },
       address: {
         label: 'Address',
-        sublabel: 'Venezuela, Nueva Esparta'
+        sublabel: 'Italy, Rimini'
       },
       phoneNumber: {
         label: 'Phone number',
-        sublabel: '+58 426 1998349'
+        sublabel: '+39 338 832 0475'
       },
       nationality: {
         label: 'Nationality',
@@ -123,12 +123,42 @@ export default {
         </p>
         `
       },
+      api: {
+        position: '30hrs/week Web Developer',
+        period: 'January 2019 - April 2019 ',
+        description: `
+          <p>
+            This project came from the necessity of centralize the payment process from approximately 7 differents apps.
+          </p>
+            
+          <p>
+            I had to implement an API on <strong>nodejs</strong> on <strong> AWS elastic beanstalk</strong> (Due to PCI compliances reasons) where it would receive the card's data and the gateway to use, These apps were base on <strong>Ruby on Rails</strong> which I had to configure too.
+          </p>
+
+          <p>
+            This API process the following payment gateways:            
+          </p>
+          <ul>
+            <li> Paypal  </li>
+            <li> Stripe  </li>
+            <li> Fast Spring  </li>
+            <li> Asiabill  </li>
+            <li> Allied Wallet  </li>
+            <li> Paysafe  </li>
+          </ul>
+
+          <p>
+            In addition, after I implemented the API, I had to create an <strong>invoice system</strong> on the same API, to <strong> generate Receipt</strong> for indivual users, <strong>months' selling</strong> by companies and apps, and the possibility of creating <strong>sales refunds</strong>    
+          </p>
+
+        `
+      },
       iqtest: {
-        position: 'Partial-Time Web Developer',
-        period: 'June 2018 - Current ',
+        position: '30hrs/week Web Developer',
+        period: 'June 2018 - April 2019 ',
         description: `
         <p>
-          I was hired through Upwork to complete different projects for this company, one was the IQ Test page and I worked beside another company called <a style="text-decoration: none" href="https://marsbased.com/es/">Mars Based </a> who together organized issue on the <a style="text-decoration: none" href="http://github.com">Github</a> platform.
+          I was hired through Upwork to complete different projects for this company (around 7 apps base on <strong> Ruby on Rails </strong>) , one of those projects was the IQ Test page and that I worked beside another company called <a style="text-decoration: none" href="https://marsbased.com/es/">Mars Based </a> who together organized issue on the <a style="text-decoration: none" href="http://github.com">Github</a> platform.
         </p>
         <p>
           In summary this project included several task, like the following:
@@ -144,14 +174,24 @@ export default {
            Fix bugs in the webpage.
           </li>
           <li>
-            Add payment gateway like 2checkout, Braintree and Stripe.
-          </li>
-          <li>
-            And more work in progress...
+            Add payment gateway like <strong>Paypal</strong>, <strong>Asiabill</strong>,  <strong> Allied Wallet</strong>,  <strong>Fast Spring</strong>, <strong>2checkout</strong>, <strong>Braintree</strong>,  <strong>Stripe </strong> and more .
           </li>
         </ul>
+
         <p>
-          This web site was built with <strong>Ruby on Rails</strong>. For this project I had to work on their <strong>heroku server</strong>, work with the <strong>Sentry</strong> app, Circle Ci and more.
+          On the 8 months I worked with them, 
+        </p>
+        <ul>
+        <li> I created pages from scratch </li>
+        <li> I was assigned to handle around 7 apps </li>
+        <li> I leaded a team of 3-4 developers </li>
+        <li> I implemented payments gateways </li>
+        <li> I managed AWS Stack </li>
+        <li> I implemented a proeficient logs system processor with elasticsearch Stack </li>
+        </ul>
+        
+        <p>
+          All web site were built with <strong>Ruby on Rails</strong> using also <strong>webpacker</strong> as their JS technology for bundle and <strong>docker</strong> for fast development. For this project I had to work on their <strong>heroku server</strong>, work with the <strong>Sentry</strong>, <strong>Circle Ci</strong> and more.
         </p>
         `
       },
@@ -216,6 +256,14 @@ export default {
       henry: {
         comment: 'Javier has done an excellent job, 100% recommended. No doubt we will return to work on a new project.',
         position: 'CEO'
+      },
+      david: {
+        comment: 'Javier pays attention to details and always goes the extra mile. For example, he not only pays attention to technical requirements but also makes the bridge between functional and business. He is a quick learner, very available and can find his way around. In 10 years of experience and about 20 different web projects, I have rarely met a young potential like Javier. I would highly recommend him.',
+        position: 'CEO'
+      },
+      alexi: {
+        comment: 'Javier is a top RoR developer. We are initiating a new phase in our company and will hire him again. He`s talented, cooperative and reliable.',
+        position: 'Project Manager'
       }
     }
   },

@@ -31,10 +31,34 @@ export default {
           url: 'https://platzi.com/@javier_cestau/curso/ruby/diploma/'
         },
         {
-          title: 'Fundamentos javascript',
+          title: 'Javascript Fundaments',
           id: 'javascript',
           logo: './assets/certificates/javascript.png',
           url: 'https://platzi.com/@javier_cestau/curso/fundamentos-javascript/diploma/'
+        },
+        {
+          title: 'Node.js Basics',
+          id: 'nodejs',
+          logo: './assets/certificates/nodejs_basics.png',
+          url: 'https://platzi.com/@javier_cestau/curso/1380-basico-nodejs/diploma/detalle/'
+        },
+        {
+          title: 'Node.js Essentials',
+          id: 'nodejs',
+          logo: './assets/certificates/nodejs_essentials.png',
+          url: 'https://platzi.com/@javier_cestau/curso/1381-node-js/diploma/detalle/'
+        },
+        {
+          title: 'Advanced Node.js',
+          id: 'nodejs',
+          logo: './assets/certificates/nodejs_advance.png',
+          url: 'https://platzi.com/@javier_cestau/curso/1151-nodejs/diploma/detalle/'
+        },
+        {
+          title: 'Sails.js',
+          id: 'sails',
+          logo: './assets/certificates/sails.png',
+          url: 'https://platzi.com/@javier_cestau/curso/1197-javascript-pro/diploma/detalle/'
         },
         {
           title: 'React.JS',
@@ -53,6 +77,12 @@ export default {
           id: 'react',
           logo: './assets/certificates/react_native.png',
           url: 'https://platzi.com/@javier_cestau/curso/react-native/diploma/'
+        },
+        {
+          title: 'React Navigation',
+          id: 'react',
+          logo: './assets/certificates/react_navigation.png',
+          url: 'https://platzi.com/@javier_cestau/curso/react-navigation/diploma/'
         },
         {
           title: 'Vue.js Profesional',
@@ -250,7 +280,7 @@ export default {
 #mongodb:hover {
   background: linear-gradient(to bottom right, #3edeff 0%, #2b5bff 100%);
 }
-#javascript:hover, #aws:hover, #heroku:hover {
+#javascript:hover, #aws:hover, #heroku:hover, #nodejs:hover {
   background: linear-gradient(to bottom right, #f4d934 0%, #dcc00f 100%);
 }
 #github:hover {
@@ -264,5 +294,8 @@ export default {
 }
 #stem:hover {
   background: linear-gradient(to bottom right, #c3c5c8 0%, #e1e8ed 100%);
+}
+#sails:hover {
+  background: linear-gradient(to bottom right, #238da0 0%, #e1e8ed 100%);
 }
 </style>

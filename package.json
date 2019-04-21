@@ -8,7 +8,8 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
-    "lint:fix": "eslint --fix "
+    "lint:fix": "eslint --fix ",
+    "start": "quasar dev"
   },
   "dependencies": {
     "pug": "^2.0.3",

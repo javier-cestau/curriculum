@@ -59,6 +59,24 @@ export default {
           url: 'Upwork',
           via: 'https://www.upwork.com/freelancers/~01d28b1483a5603b29',
           contactInfo: 'https://www.facebook.com/kennyluna'
+        },
+        {
+          company: 'Pandicorn',
+          author: 'David Bustel',
+          comment: this.$t('sections.recommendations.attr.david.comment'),
+          position: this.$t('sections.recommendations.attr.david.position'),
+          url: 'Upwork',
+          via: 'https://www.upwork.com/freelancers/~01d28b1483a5603b29',
+          contactInfo: 'https://www.linkedin.com/in/davidverbustel/'
+        },
+        {
+          company: 'Zemobile',
+          author: 'Alexi Monardez',
+          comment: this.$t('sections.recommendations.attr.alexi.comment'),
+          position: this.$t('sections.recommendations.attr.alexi.position'),
+          url: 'Upwork',
+          via: 'https://www.upwork.com/freelancers/~01d28b1483a5603b29',
+          contactInfo: 'https://www.linkedin.com/in/aleximonardezmiranda/'
         }
       ]
     }
