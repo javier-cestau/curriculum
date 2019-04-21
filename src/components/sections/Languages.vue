@@ -31,11 +31,11 @@ export default {
         },
         {
           name: this.$t('sections.languages.attr.fr'),
-          percentage: 45
+          percentage: 30
         },
         {
           name: this.$t('sections.languages.attr.it'),
-          percentage: 23
+          percentage: 45
         }
       ]
     }

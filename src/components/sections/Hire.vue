@@ -3,6 +3,8 @@
     .col-xs-12.q-my-xl(v-center="").relative-position
       //- .absolute-top(v-scroll-fire="sendAssistant")
       .q-display-2.text-white {{$t('sections.hire.description')}}
+      br
+      .q-display-1.text-white {{$t('sections.hire.subdescription')}}
     .col-sm-2.col-xs-12.round-borders.q-ma-md(v-center="" :key="index" v-for="(platform,index) in platforms")
       q-card.bg-grey-2
         q-item

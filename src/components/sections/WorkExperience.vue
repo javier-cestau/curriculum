@@ -31,7 +31,7 @@
                 span {{worksModal.country}}
             q-item-separator
             p.text-grey-9(v-html="worksModal.description")
-            div(v-center="" v-if='worksModal.projectName != "API Gateways"')
+            div(v-center="" v-if='worksModal.projectName != "Payment Gateways API"')
               q-btn(color="primary" @click="open(worksModal.url)") {{$t('buttons.visit')}}
             q-item-separator
             div(v-center="") {{worksModal.period}}
@@ -206,7 +206,7 @@ export default {
           ]
         },
         api: {
-          projectName: 'API Gateways',
+          projectName: 'Payment Gateways API',
           period: this.$t('sections.workExperience.attr.api.period'),
           company: 'Zemobile',
           projectLogo: 'assets/sites/api-aws.png',

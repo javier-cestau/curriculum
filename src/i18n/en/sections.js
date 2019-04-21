@@ -128,15 +128,15 @@ export default {
         period: 'January 2019 - April 2019 ',
         description: `
           <p>
-            This project came from the necessity of centralize the payment process from approximately 7 differents apps.
+            This project was about processing the payments of approximately 7 differents apps in a centralized manner.
           </p>
             
           <p>
-            I had to implement an API on <strong>nodejs</strong> on <strong> AWS elastic beanstalk</strong> (Due to PCI compliances reasons) where it would receive the card's data and the gateway to use, These apps were base on <strong>Ruby on Rails</strong> which I had to configure too.
+            I had to implement an API in <strong>nodejs</strong> in <strong> AWS Elastic Beanstalk</strong> (Due to PCI compliances reasons) where it would receive the card's data and gateway to use. These apps were based on <strong>Ruby on Rails</strong> which I had to configure as well.
           </p>
 
           <p>
-            This API process the following payment gateways:            
+            This API processed the following payments gateways:            
           </p>
           <ul>
             <li> Paypal  </li>
@@ -148,8 +148,15 @@ export default {
           </ul>
 
           <p>
-            In addition, after I implemented the API, I had to create an <strong>invoice system</strong> on the same API, to <strong> generate Receipt</strong> for indivual users, <strong>months' selling</strong> by companies and apps, and the possibility of creating <strong>sales refunds</strong>    
+            In addition, after I implemented the API, I had to create an <strong>invoice system</strong> on the same application, the functionalities were:    
           </p>
+          <ul>
+            <li> <strong> Generate Receipt</strong> for indivual users</li>
+            <li> <strong> Generate Months' sales</strong> by companies and apps </li>
+            <li> The possibility of creating <strong>sales refunds</strong>  </li>
+          </ul>
+
+
 
         `
       },
@@ -270,7 +277,8 @@ export default {
   hire: {
     title: 'Hire me',
     searching: 'Currently Searching for a Job',
-    description: "Let's discuss your project",
+    description: "I'm always looking for job",
+    subdescription: "Let's discuss your project",
     attr: {
       upwork: 'Hire me on Upwork',
       remote: 'Hire me on Remote',
