@@ -28,11 +28,6 @@ export default {
           icon: 'fas fa-map-marker-alt'
         },
         {
-          label: this.$t('sections.personalInfo.attr.phoneNumber.label'),
-          sublabel: this.$t('sections.personalInfo.attr.phoneNumber.sublabel'),
-          icon: 'fas fa-address-book'
-        },
-        {
           label: this.$t('sections.personalInfo.attr.nationality.label'),
           sublabel: this.$t('sections.personalInfo.attr.nationality.sublabel'),
           icon: 'fas fa-id-card'
